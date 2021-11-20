@@ -1,0 +1,35 @@
+/*  
+.bigImg{
+    width: 80%;
+} 
+
+.smallImg{
+    width: 50%;
+} 
+
+.car1{
+    width: 70%;
+} */
+   
+.hide{
+    display: none;
+    
+}
+
+
+.hidden{
+    display: none;
+}
+
+.bigImg{
+    width: 400px;
+}
+
+.smallImg{
+    width: 200px;
+}
+
+.bulbImg{
+    text-decoration: none;
+    justify-content: center;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, culpa doloribus magnam 
+    quaerat recusandae omnis aliquam! Debitis,  officiis totam quam id dolores nihil similique ut repudiandae at vitae pariatur provident?</p>
+<button onclick="colourChange()">Colour Change</button>
+
+
+<p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quidem.</p>
+<button onmouseover="textColour()">Text Colour</button>
+
+<br>
+<br>
+
+
+<img src="./images/car1.jpg" id="carImg" class="car1" width="50%" alt="">
+<button onclick="imgControl('bigImg')">BIG</button> 
+
+<button onclick="imgControl('smallImg')">SMALL</button>
+
+<button onclick="imgControl(hide())">HIDE</button>
+
+
+<br><br>
+<br>
+<!-- 
+<img src="./images/off.gif" 
+id="myimg"
+onmouseout="offBulb()"
+ onmouseover="bulbImg()"
+   class="bulbImg" alt=""> -->
+
+      <img src="./images/off.gif" id="myImg"   onmouseout="toggler( 0  , this)" onmouseover="toggler(1 , this)" class="bulbImg" alt="">
+
+
+<section>
+    <div id="part">
+        <p>part1</p>
+        <p>part2</p>
+        <p>part3</p>
+        <p>part4</p>
+    </div>
+        
+    <p>part5</p>
+    <p>part6</p>
+    <p>part7</p>
+    <p>part8</p>
+</section>
+
+
+<script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
