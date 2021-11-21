@@ -9,7 +9,7 @@ function colourChange (){
 function textColour(){
     var text =document.getElementById("text")
     var textColour = prompt("Enter your text colour")
-    text.style.background = textColour
+    text.style.color = textColour
 }
 
 function hide(){
@@ -28,7 +28,7 @@ function hide(){
     
 
     
-    function imgControl (imgClass){
+    function smalControl (imgClass){
     
         var carImg = document.getElementById("carImg");
         carImg.className += " smallImg"
@@ -49,9 +49,15 @@ function toggler(i , element){
 var paras = document.getElementsByTagName("p")
 for(var i = 0 ; i < paras.length ; i++){
 
-    paras[0,9].style.color = "red"
+    paras[4,9].style.color = "red"
     
 }
 
 
 
+
+function addColour(){
+    var add =document.getElementById("text")
+    var addColour = prompt("Enter your text colour")
+    add.style.color = addColour
+}

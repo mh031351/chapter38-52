@@ -22,14 +22,19 @@
 }
 
 .bigImg{
-    width: 400px;
+    width: 1000px;
 }
 
 .smallImg{
-    width: 200px;
+    width: 500px;
 }
 
 .bulbImg{
     text-decoration: none;
     justify-content: center;
+}
+
+.add{
+
+    color: red;
 }
